@@ -5,7 +5,7 @@
 
 set background=dark
 
-hi clear
+" hi clear
 
 if exists("syntax_on")
   syntax reset
@@ -41,7 +41,7 @@ hi NonText         guifg=#808080   guibg=#262626   gui=none            ctermfg=2
 
 hi LineNr          guifg=#808080   guibg=#303030   gui=none            ctermfg=244     ctermbg=236     cterm=NONE
 
-hi StatusLine      guifg=#303030   guibg=#dfaf00   gui=none            ctermfg=236     ctermbg=213     cterm=NONE
+hi StatusLine      guifg=#303030   guibg=#dfaf00   gui=none            ctermfg=236     ctermbg=84     cterm=NONE
 hi StatusLineNC    guifg=#262626   guibg=#5f875f   gui=none            ctermfg=235     ctermbg=65      cterm=NONE
 hi VertSplit       guifg=#828282   guibg=#828282   gui=none            ctermfg=238     ctermbg=238     cterm=NONE
 hi Folded          guifg=#a0a8b0   guibg=#384048   gui=none            ctermfg=248     ctermbg=4       cterm=NONE
