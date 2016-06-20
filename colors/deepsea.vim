@@ -23,7 +23,7 @@ let g:colors_name = "deepsea"
 " Guideline
 "————————————————————————————————————————————————————————————————————————————————————————————————————————————————————"
 
-hi Action          guifg=#ffdf00   guibg=NONE      gui=NONE             ctermfg=220    ctermbg=NONE    cterm=NONE
+hi Action          guifg=#ffdf00   guibg=NONE      gui=NONE             ctermfg=210    ctermbg=NONE    cterm=NONE
 hi Key             guifg=#ffdf00   guibg=NONE      gui=NONE             ctermfg=220    ctermbg=NONE    cterm=NONE
 
 "————————————————————————————————————————————————————————————————————————————————————————————————————————————————————"
@@ -36,13 +36,13 @@ hi MatchParen                      guibg=#0000af   gui=bold                     
 hi Pmenu           guifg=#ffffff   guibg=#202020                       ctermfg=255     ctermbg=238     cterm=NONE
 hi PmenuSel        guifg=#000000   guibg=#b1d631                       ctermfg=0       ctermbg=148     cterm=NONE
 
-hi Normal          guifg=#e2e2e5   guibg=#1c1c1c   gui=none            ctermfg=253     ctermbg=234     cterm=NONE
+hi Normal          guifg=#e2e2e5   guibg=#1c1c1c   gui=none            ctermfg=253     ctermbg=236     cterm=NONE
 hi NonText         guifg=#808080   guibg=#262626   gui=none            ctermfg=244     ctermbg=235     cterm=NONE
 
 hi LineNr          guifg=#808080   guibg=#303030   gui=none            ctermfg=244     ctermbg=236     cterm=NONE
 
-hi StatusLine      guifg=#303030   guibg=#dfaf00   gui=none            ctermfg=236     ctermbg=84     cterm=NONE
-hi StatusLineNC    guifg=#262626   guibg=#5f875f   gui=none            ctermfg=235     ctermbg=65      cterm=NONE
+hi StatusLine      guifg=#303030   guibg=#dfaf00   gui=none            ctermfg=236     ctermbg=65     cterm=NONE
+hi StatusLineNC    guifg=#262626   guibg=#5f875f   gui=none            ctermfg=235     ctermbg=245      cterm=NONE
 hi VertSplit       guifg=#828282   guibg=#828282   gui=none            ctermfg=238     ctermbg=238     cterm=NONE
 hi Folded          guifg=#a0a8b0   guibg=#384048   gui=none            ctermfg=248     ctermbg=4       cterm=NONE
 hi Title           guifg=#f6f3e8   guibg=NONE	     gui=bold            ctermfg=254                     cterm=bold
@@ -108,7 +108,7 @@ hi treeHelp        guifg=#4D4D4D
 "————————————————————————————————————————————————————————————————————————————————————————————————————————————————————"
 
 hi rubyClass       guifg=#5fffff ctermfg=119
-hi rubyDefine      guifg=#7AFFAA ctermfg=121
+hi rubyDefine      guifg=#7AFFAA ctermfg=140
 hi link rubyModule rubyClass
 hi link rubyFunction Action
 
@@ -124,7 +124,7 @@ hi rubyStringDelimiter guifg=#B5F964 guibg=#333333
 hi rubyInteger guifg=#6195E8
 
 hi rubyBlockParameter        guifg=#7bcfff ctermfg=15
-hi rubyConstant              guifg=#ffdf00 ctermfg=220
+hi rubyConstant              guifg=#ffdf00 ctermfg=87
 hi rubyInstanceVariable      guifg=#4596ff ctermfg=189
 hi rubyInterpolation         guifg=#d990de ctermfg=107
 hi rubyLocalVariableOrMethod guifg=#d990de ctermfg=189
