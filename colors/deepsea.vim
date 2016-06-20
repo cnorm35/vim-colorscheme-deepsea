@@ -135,7 +135,7 @@ hi rubyIdentifier            guifg=#58c353     ctermfg=143
 
 hi rubyOperator              guifg=#afaf5f     ctermfg=143
 hi rubyInclude               guifg=#808080 ctermfg=244
-hi rubyConditional           guifg=#ff8f30
+hi rubyConditional           guifg=#ff8f30     ctermfg=101
 hi rubyOptionalDo            guifg=#ff0000     ctermfg=196
 
 hi rubyConditionalModifier   guifg=#ff6f30
