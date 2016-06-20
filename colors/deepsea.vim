@@ -11,7 +11,7 @@ if exists("syntax_on")
   syntax reset
 endif
 
-let g:colors_name = "codes-deepsea"
+let g:colors_name = "deepsea"
 
 "————————————————+———————————————————————————————————————————————+———+———————————————————————————————————————————————"
 "                | GUI                                           |   | TERMINAL                                      "
